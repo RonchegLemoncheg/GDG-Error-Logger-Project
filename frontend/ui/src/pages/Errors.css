@@ -1,70 +1,49 @@
+
 .errors-container {
   width: 100%;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 6px 0 0 0; /* reduce padding to fit table on page */
   background: #f8f9fa;
   min-height: 100vh;
 }
 
+
 .errors-header {
-  margin-bottom: 20px;
-  padding: 20px;
-  padding-bottom: 0;
+  margin-bottom: 18px;
 }
+
 
 .errors-header h1 {
   margin: 0 0 6px 0;
   color: #667eea;
   font-size: 28px;
   font-weight: 700;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
 }
+
 
 .errors-subtitle {
   margin: 0;
   color: #666;
   font-size: 14px;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
 }
+
 
 .errors-table-wrapper {
   background: white;
-  border-radius: 0;
-  box-shadow: none;
-  overflow: visible;
-  padding: 20px;
-  margin: 0 20px 20px 20px;
-}
-
-.error-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 14px;
-}
-
-.code-snippet-container {
-  margin-top: 20px;
-  background: white;
   border-radius: 8px;
-  padding: 24px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  animation: slideDown 0.3s ease;
+  overflow: visible;
+  padding: 0; /* remove extra padding to maximize table space */
 }
 
-.cause-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(12, 18, 36, 0.45);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1200;
-}
 
 @media (max-width: 768px) {
   .errors-container {
-    padding: 12px;
+    padding: 2px;
   }
-
   .errors-header h1 {
     font-size: 22px;
   }

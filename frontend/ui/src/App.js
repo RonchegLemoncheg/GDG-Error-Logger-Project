@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 import Dashboard from "./pages/Dashboard";
 import Errors from "./pages/Errors";
-import ErrorDetail from "./pages/ErrorDetail";
 import Modules from "./pages/Modules";
 
 export default function App() {
@@ -18,7 +17,6 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/errors" element={<Errors />} />
-        <Route path="/errors/:id" element={<ErrorDetail />} />
         <Route path="/modules" element={<Modules />} />
       </Routes>
     </BrowserRouter>

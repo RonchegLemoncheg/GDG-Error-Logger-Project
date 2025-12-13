@@ -61,7 +61,9 @@ export default function ErrorTable({ errors }) {
               <td className="duration">{formatSeconds(e.time.duration_seconds)}</td>
               <td className="cause" title={e.analysis.cause}>
                 <div className="cause-preview">
-                  {e.analysis.cause.length > 30 ? e.analysis.cause.slice(0, 30) + '...' : e.analysis.cause}
+                  <span className="cause-text">
+                    {e.analysis.cause.length > 30 ? e.analysis.cause.slice(0, 30) + '...' : e.analysis.cause}
+                  </span>
                   {e.analysis.cause.length > 30 && (
                     <button
                       className="readmore-btn"
