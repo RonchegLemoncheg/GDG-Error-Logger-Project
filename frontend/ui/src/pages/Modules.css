@@ -1,0 +1,207 @@
+.modules-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.modules-header {
+  margin-bottom: 30px;
+}
+
+.modules-header h1 {
+  margin: 0 0 8px 0;
+  color: #667eea;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.modules-subtitle {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.modules-table-wrapper {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.modules-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.modules-table thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.modules-table th {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 2px solid #667eea;
+  font-size: 13px;
+}
+
+.modules-table tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.modules-table tbody tr:hover {
+  background: #f5f7ff;
+  box-shadow: inset 0 1px 3px rgba(102, 126, 234, 0.1);
+}
+
+.modules-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.modules-table td {
+  padding: 14px 16px;
+  vertical-align: middle;
+}
+
+/* Column specific styles */
+.module-name {
+  font-weight: 600;
+  color: #667eea;
+  font-size: 15px;
+}
+
+.numeric {
+  text-align: center;
+  font-weight: 500;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Score badge styles */
+.score-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 13px;
+  min-width: 50px;
+  text-align: center;
+}
+
+.score-0, .score-1, .score-2, .score-3 {
+  background: #c8e6c9;
+  color: #1b5e20;
+}
+
+.score-4, .score-5, .score-6 {
+  background: #fff9c4;
+  color: #f57f17;
+}
+
+.score-7, .score-8, .score-9 {
+  background: #ffccbc;
+  color: #bf360c;
+}
+
+.score-10 {
+  background: #ef5350;
+  color: white;
+}
+
+/* Risk score badge */
+.risk-score-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  background: #f3e5f5;
+  color: #6a1b9a;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 13px;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Risk level badge */
+.risk-badge {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.risk-low {
+  background: #c8e6c9;
+  color: #1b5e20;
+}
+
+.risk-medium {
+  background: #fff9c4;
+  color: #f57f17;
+}
+
+.risk-high {
+  background: #ffccbc;
+  color: #bf360c;
+}
+
+.risk-critical {
+  background: #ef5350;
+  color: white;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .modules-table {
+    font-size: 13px;
+  }
+
+  .modules-table th,
+  .modules-table td {
+    padding: 12px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modules-container {
+    padding: 10px;
+  }
+
+  .modules-header h1 {
+    font-size: 22px;
+  }
+
+  .modules-table {
+    font-size: 12px;
+  }
+
+  .modules-table th,
+  .modules-table td {
+    padding: 10px 8px;
+  }
+
+  .score-badge,
+  .risk-score-badge,
+  .risk-badge {
+    padding: 5px 10px;
+    font-size: 11px;
+    min-width: 45px;
+  }
+
+  .modules-header {
+    margin-bottom: 20px;
+  }
+}
