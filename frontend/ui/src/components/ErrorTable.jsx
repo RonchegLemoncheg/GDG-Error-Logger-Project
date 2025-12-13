@@ -52,7 +52,7 @@ export default function ErrorTable({ errors }) {
               <td className="message" title={e.error.message}>{e.error.message}</td>
               <td className={`type type-${e.type}`}>{e.type}</td>
               <td className="score">
-                <span className={`score-badge score-${Math.round(e.analysis.weighted_score * 10)}`}>
+                <span>
                   {e.analysis.weighted_score.toFixed(2)}
                 </span>
               </td>
@@ -62,9 +62,9 @@ export default function ErrorTable({ errors }) {
               <td className="cause" title={e.analysis.cause}>
                 <div className="cause-preview">
                   <span className="cause-text">
-                    {e.analysis.cause.length > 30 ? e.analysis.cause.slice(0, 30) + '...' : e.analysis.cause}
+                    {e.analysis.cause.length > 25 ? e.analysis.cause.slice(0, 25) + '...' : e.analysis.cause}
                   </span>
-                  {e.analysis.cause.length > 30 && (
+                  {e.analysis.cause.length > 25 && (
                     <button
                       className="readmore-btn"
                       onClick={(ev) => { ev.stopPropagation(); toggleCause(e.bug_id); }}

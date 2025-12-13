@@ -3,11 +3,22 @@ import { getModuleRisk } from "../api/mockApi";
 import "./Modules.css";
 
 export default function Modules() {
-  const [modules, setModules] = useState([]);
+  const [modules, setModules] = useState(null);
 
   useEffect(() => {
     getModuleRisk().then(setModules);
   }, []);
+
+    if (!modules) {
+  return (
+    <div className="dashboard-container">
+      <div className="dashboard-header">
+        <h1>Module Risk Assessment</h1>
+        <p className="dashboard-subtitle">Loading...</p>
+      </div>
+    </div>
+  );
+}
 
   const formatSeconds = (seconds) => {
     const mins = Math.floor(seconds / 60);

@@ -1,17 +1,45 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-
+import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import Errors from "./pages/Errors";
 import Modules from "./pages/Modules";
+import "./App.css";
 
 export default function App() {
   return (
     <BrowserRouter>
-      {/* Simple nav so you can test */}
-      <nav style={{ padding: "10px", borderBottom: "1px solid #ccc" }}>
-        <Link to="/" style={{ marginRight: 10 }}>Dashboard</Link>
-        <Link to="/errors" style={{ marginRight: 10 }}>Errors</Link>
-        <Link to="/modules">Modules</Link>
+      <nav className="navbar">
+        <div className="navbar-brand">
+          <span className="logo-icon">⚡</span>
+          <span className="brand-text">Error Tracker</span>
+        </div>
+        
+        <div className="navbar-links">
+          <NavLink 
+            to="/" 
+            end
+            className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
+          >
+            <span className="nav-icon">📊</span>
+            <span>Dashboard</span>
+          </NavLink>
+          
+          <NavLink 
+            to="/errors"
+            className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
+          >
+            <span className="nav-icon">🐛</span>
+            <span>Errors</span>
+          </NavLink>
+          
+          <NavLink 
+            to="/modules"
+            className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
+          >
+            <span className="nav-icon">📦</span>
+            <span>Modules</span>
+          </NavLink>
+        </div>
+
       </nav>
 
       <Routes>

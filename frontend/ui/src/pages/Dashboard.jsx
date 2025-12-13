@@ -9,7 +9,16 @@ export default function Dashboard() {
     getSummary().then(setStats);
   }, []);
 
-  if (!stats) return null;
+  if (!stats) {
+  return (
+    <div className="dashboard-container">
+      <div className="dashboard-header">
+        <h1>Dashboard</h1>
+        <p className="dashboard-subtitle">Loading...</p>
+      </div>
+    </div>
+  );
+}
 
   const formatSeconds = (s) => {
     if (s == null) return '-';
