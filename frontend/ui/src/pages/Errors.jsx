@@ -10,12 +10,16 @@ export default function Errors() {
     getErrors().then(setErrors);
   }, []);
 
-  if (!errors) {
+if (!errors || errors.length === 0) {
   return (
-    <div className="dashboard-container">
-      <div className="dashboard-header">
+    <div className="errors-container">
+      <div className="errors-header">
         <h1>All Errors</h1>
-        <p className="dashboard-subtitle">Loading...</p>
+        <p className="errors-subtitle">Overview of recent errors and their analysis</p>
+      </div>
+      <div className="errors-loading">
+        <div className="loading-spinner"></div>
+        <p className="loading-text">Loading errors...</p>
       </div>
     </div>
   );

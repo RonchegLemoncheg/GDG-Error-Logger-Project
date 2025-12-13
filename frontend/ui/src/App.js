@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import Errors from "./pages/Errors";
 import Modules from "./pages/Modules";
+import logo from "./logo.png";
 import "./App.css";
 
 export default function App() {
@@ -9,8 +10,8 @@ export default function App() {
     <BrowserRouter>
       <nav className="navbar">
         <div className="navbar-brand">
-          <span className="logo-icon">⚡</span>
-          <span className="brand-text">Error Tracker</span>
+          <img src={logo} alt="BugLens Logo" className="logo-image" />
+          <span className="brand-text">BugLens</span>
         </div>
         
         <div className="navbar-links">
@@ -39,7 +40,6 @@ export default function App() {
             <span>Modules</span>
           </NavLink>
         </div>
-
       </nav>
 
       <Routes>

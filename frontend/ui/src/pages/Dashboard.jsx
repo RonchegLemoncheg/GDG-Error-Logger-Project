@@ -9,12 +9,16 @@ export default function Dashboard() {
     getSummary().then(setStats);
   }, []);
 
-  if (!stats) {
+if (!stats) {
   return (
     <div className="dashboard-container">
       <div className="dashboard-header">
         <h1>Dashboard</h1>
-        <p className="dashboard-subtitle">Loading...</p>
+        <p className="dashboard-subtitle">Overview — quick metrics about recent errors</p>
+      </div>
+      <div className="dashboard-loading">
+        <div className="loading-spinner"></div>
+        <p className="loading-text">Loading dashboard data...</p>
       </div>
     </div>
   );

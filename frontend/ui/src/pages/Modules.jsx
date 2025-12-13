@@ -9,12 +9,16 @@ export default function Modules() {
     getModuleRisk().then(setModules);
   }, []);
 
-    if (!modules) {
+if (!modules || modules.length === 0) {
   return (
-    <div className="dashboard-container">
-      <div className="dashboard-header">
+    <div className="modules-container">
+      <div className="modules-header">
         <h1>Module Risk Assessment</h1>
-        <p className="dashboard-subtitle">Loading...</p>
+        <p className="modules-subtitle">Monitor module health and error patterns</p>
+      </div>
+      <div className="modules-loading">
+        <div className="loading-spinner"></div>
+        <p className="loading-text">Loading module data...</p>
       </div>
     </div>
   );
