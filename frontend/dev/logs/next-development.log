@@ -1,0 +1,60 @@
+[00:00:00.510] Server  LOG      ✓ Ready in 341ms
+[00:00:04.656] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.788] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:04.788] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:00:04.788] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765651598000}
+[00:00:05.051] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:00:05.051] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:00:05.051] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:00:05.051] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:00:05.051] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:00:05.051] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:00:05.051] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:00:05.051] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:00:14.393] Server  LOG      ✓ Compiled in 38ms
+[00:00:26.532] Server  LOG      ✓ Compiled in 73ms
+[00:00:44.257] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/errors color: rgb(120, 120, 120) color: inherit {"dp":"/errors","o":"http://localhost:3000/errors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765651637469}
+[00:00:45.714] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/modules color: rgb(120, 120, 120) color: inherit {"dp":"/modules","o":"http://localhost:3000/modules","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765651638925}
+[00:00:46.474] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765651639663}
+[00:00:46.474] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:00:46.474] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:00:46.474] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:00:46.474] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:00:46.474] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:00:46.474] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:00:46.474] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:00:46.474] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:07:04.519] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/modules color: rgb(120, 120, 120) color: inherit {"dp":"/modules","o":"http://localhost:3000/modules","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765652017731}
+[00:22:17.735] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765653869927}
+[00:22:17.735] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:22:17.735] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:22:17.735] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:22:17.735] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:22:17.735] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:22:17.735] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:22:17.735] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
+[00:22:17.735] Browser WARN    The width(533) and height(300) are both fixed numbers,
+       maybe you don't need to use a ResponsiveContainer.
