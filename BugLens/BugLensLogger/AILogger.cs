@@ -20,7 +20,7 @@ class AILogger
     {
         // For a true NuGet package, we rely on the consumer (the application)
         // to set the environment variable beforehand.
-        var apiKey = "AIzaSyCvsSvoF5r0GGfTdH91fOw7CyilfyCXCQs";
+        var apiKey = "YOURKEY";
         
         if (string.IsNullOrWhiteSpace(apiKey))
         {
