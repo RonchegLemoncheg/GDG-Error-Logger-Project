@@ -1,1 +1,0 @@
-# GDG-Error-Logger-Project
