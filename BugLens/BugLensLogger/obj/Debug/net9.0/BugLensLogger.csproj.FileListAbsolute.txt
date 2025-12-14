@@ -1,0 +1,13 @@
+/home/nikagela/Desktop/Error logger/GDG-Error-Logger-Project/BugLens/BugLensLogger/bin/Debug/net9.0/BugLensLogger.deps.json
+/home/nikagela/Desktop/Error logger/GDG-Error-Logger-Project/BugLens/BugLensLogger/bin/Debug/net9.0/BugLensLogger.dll
+/home/nikagela/Desktop/Error logger/GDG-Error-Logger-Project/BugLens/BugLensLogger/bin/Debug/net9.0/BugLensLogger.pdb
+/home/nikagela/Desktop/Error logger/GDG-Error-Logger-Project/BugLens/BugLensLogger/obj/Debug/net9.0/BugLensLogger.GeneratedMSBuildEditorConfig.editorconfig
+/home/nikagela/Desktop/Error logger/GDG-Error-Logger-Project/BugLens/BugLensLogger/obj/Debug/net9.0/BugLensLogger.AssemblyInfoInputs.cache
+/home/nikagela/Desktop/Error logger/GDG-Error-Logger-Project/BugLens/BugLensLogger/obj/Debug/net9.0/BugLensLogger.AssemblyInfo.cs
+/home/nikagela/Desktop/Error logger/GDG-Error-Logger-Project/BugLens/BugLensLogger/obj/Debug/net9.0/BugLensLogger.csproj.CoreCompileInputs.cache
+/home/nikagela/Desktop/Error logger/GDG-Error-Logger-Project/BugLens/BugLensLogger/obj/Debug/net9.0/BugLensLogger.sourcelink.json
+/home/nikagela/Desktop/Error logger/GDG-Error-Logger-Project/BugLens/BugLensLogger/obj/Debug/net9.0/BugLensLogger.dll
+/home/nikagela/Desktop/Error logger/GDG-Error-Logger-Project/BugLens/BugLensLogger/obj/Debug/net9.0/refint/BugLensLogger.dll
+/home/nikagela/Desktop/Error logger/GDG-Error-Logger-Project/BugLens/BugLensLogger/obj/Debug/net9.0/BugLensLogger.pdb
+/home/nikagela/Desktop/Error logger/GDG-Error-Logger-Project/BugLens/BugLensLogger/obj/Debug/net9.0/ref/BugLensLogger.dll
+/home/nikagela/Desktop/Error logger/GDG-Error-Logger-Project/BugLens/BugLensLogger/obj/Debug/net9.0/BugLensLogger.csproj.AssemblyReference.cache

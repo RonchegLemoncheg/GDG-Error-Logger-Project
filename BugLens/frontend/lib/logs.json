@@ -1,0 +1,70 @@
+[
+  {
+    "bug_id": "BM-2025-12-14-023733",
+    "type": "runtime",
+    "module": "ConsoleApp1.Program",
+    "function": "Main",
+    "error": {
+      "code": "NullReferenceException",
+      "message": "Object reference not set to an instance of an object.",
+      "line": 11
+    },
+    "code_snippet": "static void Main(string[] args)\n{\nLogger.Init();\nstring x = null;\nConsole.WriteLine(x.Length);\n}",
+    "time": "2025-12-14T02:37:33.588103Z",
+    "analyse": {
+      "cause": "The NullReferenceException arises because variable \u0027x\u0027 is explicitly assigned null. Subsequently, an attempt is made to access the \u0027Length\u0027 property of this null string, which is an invalid operation for an uninitialized object reference, causing the runtime error.",
+      "fix": "To resolve this, ensure \u0027x\u0027 is not null before accessing its properties. Initialize \u0027x\u0027 to an empty string (e.g., string x = string.Empty;) or add a null check (e.g., if (x != null) { Console.WriteLine(x.Length); }) before dereferencing it."
+    }
+  },
+  {
+    "bug_id": "BM-2025-12-14-024512",
+    "type": "runtime",
+    "module": "ConsoleApp1.Program",
+    "function": "Main",
+    "error": {
+      "code": "NullReferenceException",
+      "message": "Object reference not set to an instance of an object.",
+      "line": 11
+    },
+    "code_snippet": "static void Main(string[] args)\n{\nLogger.Init();\nstring x = null;\nConsole.WriteLine(x.Length);\n}",
+    "time": "2025-12-14T02:45:12.0432026Z",
+    "analyse": {
+      "cause": "The NullReferenceException occurs because a string variable \u0027x\u0027 is explicitly assigned \u0060null\u0060. Subsequently, an attempt is made to access a property (\u0060Length\u0060) of this \u0060null\u0060 reference, which is an invalid operation, leading to the runtime error on line 11.",
+      "fix": "To resolve this, ensure the \u0027x\u0027 variable is properly initialized with a non-null string value before attempting to access its members. Alternatively, implement a null check (\u0060if (x != null)\u0060) before using \u0027x.Length\u0027 to prevent accessing a null reference and handle the null case gracefully."
+    }
+  },
+  {
+    "bug_id": "BM-2025-12-14-024532",
+    "type": "runtime",
+    "module": "ConsoleApp1.Program",
+    "function": "Main",
+    "error": {
+      "code": "NullReferenceException",
+      "message": "Object reference not set to an instance of an object.",
+      "line": 11
+    },
+    "code_snippet": "static void Main(string[] args)\n{\nLogger.Init();\nstring x = null;\nConsole.WriteLine(x.Length);\n}",
+    "time": "2025-12-14T02:45:32.4408791Z",
+    "analyse": {
+      "cause": "NullReferenceException. string x is null; x.Length accessed on line 11.",
+      "fix": "Initialize x with a valid string or add a null check (if (x != null))."
+    }
+  },
+  {
+    "bug_id": "BM-2025-12-14-024737",
+    "type": "runtime",
+    "module": "ConsoleApp1.Program",
+    "function": "GetId",
+    "error": {
+      "code": "NullReferenceException",
+      "message": "Object reference not set to an instance of an object.",
+      "line": 16
+    },
+    "code_snippet": "static void GetId(string x)\n{\nConsole.WriteLine(x.Length);\n}",
+    "time": "2025-12-14T02:47:38.0001144Z",
+    "analyse": {
+      "cause": "The NullReferenceException occurs because the \u0027x\u0027 parameter within the \u0027GetId\u0027 function is \u0027null\u0027 when \u0027x.Length\u0027 is accessed on line 16. A null string cannot have its \u0027Length\u0027 property retrieved, leading to this runtime error.",
+      "fix": "To resolve this, ensure \u0027x\u0027 is not null before accessing its \u0027Length\u0027 property. Add a null check like \u0027if (x != null)\u0027 before \u0027x.Length\u0027, or refactor the calling code to always pass a valid non-null string argument to the \u0027GetId\u0027 function."
+    }
+  }
+]
